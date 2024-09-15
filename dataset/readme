@@ -1,1 +1,4 @@
+-This folder consists of .joblib file(trained random forest model)
+-dataset on which the model was trained
+-code used to train the model
 
