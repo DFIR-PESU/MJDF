@@ -79,7 +79,7 @@ The goal of this project is to detect fileless malware embedded in PDFs by analy
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/DFIR-PESU/malicious_javascript_detector-fileless-.git
+git clone https://github.com/DFIR-PESU/Malicious_JavaScript_Detector_Fileless_Filebased-.git
 cd malicious_javascript_detector-fileless
 ```
 
