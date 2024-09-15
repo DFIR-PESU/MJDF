@@ -164,25 +164,29 @@ cd malicious_javascript_detector-fileless
    ./vol.py -f /path/to/memory.dmp --profile=[NEW_PROFILE_NAME] [PLUGIN]
    ```
 
-##Project File Structure
+## Project Structure
+
+The project is organized into the following directories and files:
+
+```
 Capstone/
 │
 ├── code/
-│   ├── classify.png
-│   ├── classify.webp
-│   ├── clear.png
-│   ├── database.jpg
-│   ├── main.py
-│   ├── memory.png
-│   ├── start.jpeg
-│   ├── start.png
-│   ├── stop.png
+│   ├── classify.png           # Image file for classification feature
+│   ├── classify.webp          # WebP version of classification image
+│   ├── clear.png              # Image file for clear button
+│   ├── database.jpg           # Image file for database representation
+│   ├── main.py                # Main Python script to run the project
+│   ├── memory.png             # Image file for memory feature
+│   ├── start.jpeg             # JPEG image for the start button
+│   ├── start.png              # PNG image for the start button
+│   ├── stop.png               # Image file for stop button
 │
 ├── dataset/
-│   ├── combined_dataset.csv
-│   ├── random_forest_model.joblib
-│   └── train_model.py
-
+│   ├── combined_dataset.csv   # CSV file with the combined dataset used for training
+│   ├── random_forest_model.joblib  # Serialized Random Forest model
+│   └── train_model.py         # Python script to train the model
+```
 ## Usage
 
 1. **Start the PyQt5 application**:
