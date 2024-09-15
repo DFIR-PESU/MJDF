@@ -172,15 +172,15 @@ The project is organized into the following directories and files:
 Capstone/
 │
 ├── code/
-│   ├── classify.png           # Image file for classification feature
-│   ├── classify.webp          # WebP version of classification image
-│   ├── clear.png              # Image file for clear button
-│   ├── database.jpg           # Image file for database representation
-│   ├── main.py                # Main Python script to run the project
-│   ├── memory.png             # Image file for memory feature
-│   ├── start.jpeg             # JPEG image for the start button
-│   ├── start.png              # PNG image for the start button
-│   ├── stop.png               # Image file for stop button
+│   ├── classify.png           
+│   ├── classify.webp          
+│   ├── clear.png              
+│   ├── database.jpg           
+│   ├── main.py                
+│   ├── memory.png             
+│   ├── start.jpeg             
+│   ├── start.png             
+│   ├── stop.png              
 │
 ├── dataset/
 │   ├── combined_dataset.csv   # CSV file with the combined dataset used for training
