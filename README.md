@@ -79,8 +79,8 @@ The goal of this project is to detect fileless malware embedded in PDFs by analy
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YourRepository/DetectFilelessMalware.git
-cd DetectFilelessMalware
+git clone https://github.com/DFIR-PESU/malicious_javascript_detector-fileless-.git
+cd malicious_javascript_detector-fileless
 ```
 
 ### Install Dependencies
