@@ -169,7 +169,7 @@ cd malicious_javascript_detector-fileless
 
 1. **Start the PyQt5 application**:
    ```bash
-   python v5.py
+   python3 main.py
    ```
 
 2. **PDF Monitoring**:
