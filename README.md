@@ -18,7 +18,7 @@ The goal of this project is to detect fileless malware embedded in PDFs by analy
 ## Technology Stack
 
 - **Frontend**: PyQt5 (for the user interface)
-- **Backend**: Python 
+- **Backend**: Python(handling extraction, analysis, and memory forensics)
 - **PDF Analysis**: Origami framework with `pdfextract`
 - **JavaScript Analysis**: Malware-jail sandbox for dynamic analysis
 - **Machine Learning**: scikit-learn for classification using Random Forest
