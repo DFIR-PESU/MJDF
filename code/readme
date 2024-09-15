@@ -1,1 +1,5 @@
-
+replace the path of
+-malware-jail,
+-volatility,
+-memory.dmp 
+files/folders accordingly
