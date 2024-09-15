@@ -164,6 +164,24 @@ cd malicious_javascript_detector-fileless
    ./vol.py -f /path/to/memory.dmp --profile=[NEW_PROFILE_NAME] [PLUGIN]
    ```
 
+##Project File Structure
+Capstone/
+│
+├── code/
+│   ├── classify.png
+│   ├── classify.webp
+│   ├── clear.png
+│   ├── database.jpg
+│   ├── main.py
+│   ├── memory.png
+│   ├── start.jpeg
+│   ├── start.png
+│   ├── stop.png
+│
+├── dataset/
+│   ├── combined_dataset.csv
+│   ├── random_forest_model.joblib
+│   └── train_model.py
 
 ## Usage
 
