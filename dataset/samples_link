@@ -2,11 +2,15 @@ Wannacry infected memory image :
 https://mega.nz/file/Au5xlCAS#KX5ZJKYzQgDHSa72lPFwqKL6CsZS7oQGbyyQrMTH9XY
 
 Malwarebazar:
-Sample:Emotet
+Sample 1:Emotet
 SHA256:262197fe8d46924f519f7453f8e9b70b77450a743c108bce4adb5c72ef55538a
 link: https://bazaar.abuse.ch/sample/262197fe8d46924f519f7453f8e9b70b77450a743c108bce4adb5c72ef55538a/
 
-Sample: WannaCry
+Sample 2:Emotet
+SHA256:8f8abfa6717ad2043a295d16b5aeeac3e7084b7994f6eec8351e18a9a3c59997
+link: https://bazaar.abuse.ch/sample/8f8abfa6717ad2043a295d16b5aeeac3e7084b7994f6eec8351e18a9a3c59997/
+
+Sample 3: WannaCry
 SHA256: ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa
 link: https://bazaar.abuse.ch/sample/ed01ebfbc9eb5bbea545af4d01bf5f1071661840480439c6e5babe8e080e41aa/
 
