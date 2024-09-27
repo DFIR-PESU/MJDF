@@ -1,0 +1,441 @@
+Volatility 3 Framework 2.10.0
+
+PID	Process	Start VPN	End VPN	Tag	Protection	CommitCharge	PrivateMemory	File output	Notes	Hexdump	Disasm
+
+4720	SearchApp.exe	0x192e3080000	0x192e309ffff	VadS	PAGE_EXECUTE_READWRITE	12	1	Disabled	N/A	
+48 89 54 24 10 48 89 4c 24 08 4c 89 44 24 18 4c H.T$.H.L$.L.D$.L
+89 4c 24 20 48 8b 41 28 48 8b 48 08 48 8b 51 50 .L$ H.A(H.H.H.QP
+48 83 e2 f8 48 8b ca 48 b8 60 00 08 e3 92 01 00 H...H..H.`......
+00 48 2b c8 48 81 f9 70 0f 00 00 76 09 48 c7 c1 .H+.H..p...v.H..	
+0x192e3080000:	mov	qword ptr [rsp + 0x10], rdx
+0x192e3080005:	mov	qword ptr [rsp + 8], rcx
+0x192e308000a:	mov	qword ptr [rsp + 0x18], r8
+0x192e308000f:	mov	qword ptr [rsp + 0x20], r9
+0x192e3080014:	mov	rax, qword ptr [rcx + 0x28]
+0x192e3080018:	mov	rcx, qword ptr [rax + 8]
+0x192e308001c:	mov	rdx, qword ptr [rcx + 0x50]
+0x192e3080020:	and	rdx, 0xfffffffffffffff8
+0x192e3080024:	mov	rcx, rdx
+0x192e3080027:	movabs	rax, 0x192e3080060
+0x192e3080031:	sub	rcx, rax
+0x192e3080034:	cmp	rcx, 0xf70
+0x192e308003b:	jbe	0x192e3080046
+4720	SearchApp.exe	0x192e5620000	0x192e5683fff	VadS	PAGE_EXECUTE_READWRITE	3	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................	
+0x192e5620000:	add	byte ptr [rax], al
+0x192e5620002:	add	byte ptr [rax], al
+0x192e5620004:	add	byte ptr [rax], al
+0x192e5620006:	add	byte ptr [rax], al
+0x192e5620008:	add	byte ptr [rax], al
+0x192e562000a:	add	byte ptr [rax], al
+0x192e562000c:	add	byte ptr [rax], al
+0x192e562000e:	add	byte ptr [rax], al
+0x192e5620010:	add	byte ptr [rax], al
+0x192e5620012:	add	byte ptr [rax], al
+0x192e5620014:	add	byte ptr [rax], al
+0x192e5620016:	add	byte ptr [rax], al
+0x192e5620018:	add	byte ptr [rax], al
+0x192e562001a:	add	byte ptr [rax], al
+0x192e562001c:	add	byte ptr [rax], al
+0x192e562001e:	add	byte ptr [rax], al
+0x192e5620020:	add	byte ptr [rax], al
+0x192e5620022:	add	byte ptr [rax], al
+0x192e5620024:	add	byte ptr [rax], al
+0x192e5620026:	add	byte ptr [rax], al
+0x192e5620028:	add	byte ptr [rax], al
+0x192e562002a:	add	byte ptr [rax], al
+0x192e562002c:	add	byte ptr [rax], al
+0x192e562002e:	add	byte ptr [rax], al
+0x192e5620030:	add	byte ptr [rax], al
+0x192e5620032:	add	byte ptr [rax], al
+0x192e5620034:	add	byte ptr [rax], al
+0x192e5620036:	add	byte ptr [rax], al
+0x192e5620038:	add	byte ptr [rax], al
+0x192e562003a:	add	byte ptr [rax], al
+0x192e562003c:	add	byte ptr [rax], al
+0x192e562003e:	add	byte ptr [rax], al
+6976	powershell.exe	0x1f5424d0000	0x1f5424dffff	VadS	PAGE_EXECUTE_READWRITE	8	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 ea 8e d2 e8 5b f7 00 01 ............[...
+ee ff ee ff 02 00 00 00 20 01 4d 42 f5 01 00 00 ........ .MB....
+20 01 4d 42 f5 01 00 00 00 00 4d 42 f5 01 00 00  .MB......MB....
+00 00 4d 42 f5 01 00 00 0f 00 00 00 00 00 00 00 ..MB............	
+0x1f5424d0000:	add	byte ptr [rax], al
+0x1f5424d0002:	add	byte ptr [rax], al
+0x1f5424d0004:	add	byte ptr [rax], al
+0x1f5424d0006:	add	byte ptr [rax], al
+3416	smartscreen.ex	0x259f5920000	0x259f593ffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+48 89 54 24 10 48 89 4c 24 08 4c 89 44 24 18 4c H.T$.H.L$.L.D$.L
+89 4c 24 20 48 8b 41 28 48 8b 48 08 48 8b 51 50 .L$ H.A(H.H.H.QP
+48 83 e2 f8 48 8b ca 48 b8 60 00 92 f5 59 02 00 H...H..H.`...Y..
+00 48 2b c8 48 81 f9 70 0f 00 00 76 09 48 c7 c1 .H+.H..p...v.H..	
+0x259f5920000:	mov	qword ptr [rsp + 0x10], rdx
+0x259f5920005:	mov	qword ptr [rsp + 8], rcx
+0x259f592000a:	mov	qword ptr [rsp + 0x18], r8
+0x259f592000f:	mov	qword ptr [rsp + 0x20], r9
+0x259f5920014:	mov	rax, qword ptr [rcx + 0x28]
+0x259f5920018:	mov	rcx, qword ptr [rax + 8]
+0x259f592001c:	mov	rdx, qword ptr [rcx + 0x50]
+0x259f5920020:	and	rdx, 0xfffffffffffffff8
+0x259f5920024:	mov	rcx, rdx
+0x259f5920027:	movabs	rax, 0x259f5920060
+0x259f5920031:	sub	rcx, rax
+0x259f5920034:	cmp	rcx, 0xf70
+0x259f592003b:	jbe	0x259f5920046
+3416	smartscreen.ex	0x259f5d90000	0x259f5df3fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+48 b8 00 08 00 80 51 02 00 00 48 ff e0 cc cc cc H.....Q...H.....
+48 b8 00 0c 00 80 51 02 00 00 48 ff e0 cc cc cc H.....Q...H.....
+48 b8 00 10 00 80 51 02 00 00 48 ff e0 cc cc cc H.....Q...H.....
+cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc ................	
+0x259f5d90000:	movabs	rax, 0x25180000800
+0x259f5d9000a:	jmp	rax
+0x259f5d9000d:	int3	
+0x259f5d9000e:	int3	
+0x259f5d9000f:	int3	
+0x259f5d90010:	movabs	rax, 0x25180000c00
+0x259f5d9001a:	jmp	rax
+0x259f5d9001d:	int3	
+0x259f5d9001e:	int3	
+0x259f5d9001f:	int3	
+0x259f5d90020:	movabs	rax, 0x25180001000
+0x259f5d9002a:	jmp	rax
+0x259f5d9002d:	int3	
+0x259f5d9002e:	int3	
+0x259f5d9002f:	int3	
+0x259f5d90030:	int3	
+0x259f5d90031:	int3	
+0x259f5d90032:	int3	
+0x259f5d90033:	int3	
+0x259f5d90034:	int3	
+0x259f5d90035:	int3	
+0x259f5d90036:	int3	
+0x259f5d90037:	int3	
+0x259f5d90038:	int3	
+0x259f5d90039:	int3	
+0x259f5d9003a:	int3	
+0x259f5d9003b:	int3	
+0x259f5d9003c:	int3	
+0x259f5d9003d:	int3	
+0x259f5d9003e:	int3	
+0x259f5d9003f:	int3	
+9108	powershell.exe	0x19985bb0000	0x19985bbffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 19 99 3a 8d 7c e2 00 01 ..........:.|...
+ee ff ee ff 02 00 00 00 20 01 bb 85 99 01 00 00 ........ .......
+20 01 bb 85 99 01 00 00 00 00 bb 85 99 01 00 00  ...............
+00 00 bb 85 99 01 00 00 0f 00 00 00 00 00 00 00 ................	
+0x19985bb0000:	add	byte ptr [rax], al
+0x19985bb0002:	add	byte ptr [rax], al
+0x19985bb0004:	add	byte ptr [rax], al
+0x19985bb0006:	add	byte ptr [rax], al
+0x19985bb0008:	sbb	dword ptr [rcx - 0x1d8372c6], ebx
+0x19985bb000e:	add	byte ptr [rcx], al
+0x19985bb0010:	out	dx, al
+9108	powershell.exe	0x19985b90000	0x19985b96fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 80 79 da 9d 99 01 00 00 .........y......
+80 79 da 9d 99 01 00 00 00 00 da 9d 99 01 00 00 .y..............
+b0 0d b9 85 99 01 00 00 00 10 b9 85 99 01 00 00 ................
+00 70 b9 85 99 01 00 00 01 00 00 00 00 00 00 00 .p..............	
+0x19985b90000:	add	byte ptr [rax], al
+0x19985b90002:	add	byte ptr [rax], al
+0x19985b90004:	add	byte ptr [rax], al
+0x19985b90006:	add	byte ptr [rax], al
+0x19985b90008:	cmp	byte ptr [rcx - 0x26], 0x9d
+0x19985b9000c:	cdq	
+0x19985b9000d:	add	dword ptr [rax], eax
+0x19985b9000f:	add	byte ptr [rax - 0x66622587], al
+0x19985b90015:	add	dword ptr [rax], eax
+0x19985b90017:	add	byte ptr [rax], al
+0x19985b90019:	add	dl, bl
+0x19985b9001b:	popfq	
+0x19985b9001c:	cdq	
+0x19985b9001d:	add	dword ptr [rax], eax
+0x19985b9001f:	add	byte ptr [rax - 0x667a46f3], dh
+0x19985b90025:	add	dword ptr [rax], eax
+0x19985b90027:	add	byte ptr [rax], al
+0x19985b90029:	adc	byte ptr [rcx + 0x19985], bh
+0x19985b9002f:	add	byte ptr [rax], al
+0x19985b90031:	jo	0x19985b8ffec
+0x19985b90033:	test	dword ptr [rcx + 0x1000001], ebx
+0x19985b90039:	add	byte ptr [rax], al
+0x19985b9003b:	add	byte ptr [rax], al
+0x19985b9003d:	add	byte ptr [rax], al
+9108	powershell.exe	0x1999dda0000	0x1999ddaffff	VadS	PAGE_EXECUTE_READWRITE	8	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 45 ff 17 25 a4 a4 00 01 ........E..%....
+ee ff ee ff 02 00 00 00 20 01 da 9d 99 01 00 00 ........ .......
+20 01 da 9d 99 01 00 00 00 00 da 9d 99 01 00 00  ...............
+00 00 da 9d 99 01 00 00 0f 00 00 00 00 00 00 00 ................	
+0x1999dda0000:	add	byte ptr [rax], al
+0x1999dda0002:	add	byte ptr [rax], al
+0x1999dda0004:	add	byte ptr [rax], al
+0x1999dda0006:	add	byte ptr [rax], al
+0x1999dda0008:	call	qword ptr [r15]
+0x1999dda000b:	and	eax, 0x100a4a4
+0x1999dda0010:	out	dx, al
+9108	powershell.exe	0x7df431c70000	0x7df431c7ffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00 ........x.......
+0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 d0 49 43 ....I......H..IC
+5e fe 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8 ^......I......H.
+d0 49 43 5e fe 7f 00 00 ff e0 49 c7 c2 02 00 00 .IC^......I.....	
+0x7df431c70000:	add	byte ptr [rax], al
+0x7df431c70002:	add	byte ptr [rax], al
+0x7df431c70004:	add	byte ptr [rax], al
+0x7df431c70006:	add	byte ptr [rax], al
+0x7df431c70008:	js	0x7df431c70017
+0x7df431c7000a:	add	byte ptr [rax], al
+0x7df431c7000c:	add	byte ptr [rax], al
+0x7df431c7000e:	add	byte ptr [rax], al
+0x7df431c70010:	or	al, 0
+0x7df431c70012:	add	byte ptr [rax], al
+0x7df431c70014:	mov	r10, 0
+0x7df431c7001b:	movabs	rax, 0x7ffe5e4349d0
+0x7df431c70025:	jmp	rax
+0x7df431c70027:	mov	r10, 1
+0x7df431c7002e:	movabs	rax, 0x7ffe5e4349d0
+0x7df431c70038:	jmp	rax
+9108	powershell.exe	0x7df431c80000	0x7df431d1ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d e5 5c fe 7f 00 00 h........].\....
+00 10 e3 5c fe 7f 00 00 08 4a fc 5c fe 7f 00 00 ...\.....J.\....	
+0x7df431c80000:	fdivr	st(7)
+1012	powershell.exe	0x7df4bab30000	0x7df4bab3ffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00 ........x.......
+0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 d0 49 43 ....I......H..IC
+5e fe 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8 ^......I......H.
+d0 49 43 5e fe 7f 00 00 ff e0 49 c7 c2 02 00 00 .IC^......I.....	
+0x7df4bab30000:	add	byte ptr [rax], al
+0x7df4bab30002:	add	byte ptr [rax], al
+0x7df4bab30004:	add	byte ptr [rax], al
+0x7df4bab30006:	add	byte ptr [rax], al
+0x7df4bab30008:	js	0x7df4bab30017
+0x7df4bab3000a:	add	byte ptr [rax], al
+0x7df4bab3000c:	add	byte ptr [rax], al
+0x7df4bab3000e:	add	byte ptr [rax], al
+0x7df4bab30010:	or	al, 0
+0x7df4bab30012:	add	byte ptr [rax], al
+0x7df4bab30014:	mov	r10, 0
+0x7df4bab3001b:	movabs	rax, 0x7ffe5e4349d0
+0x7df4bab30025:	jmp	rax
+0x7df4bab30027:	mov	r10, 1
+0x7df4bab3002e:	movabs	rax, 0x7ffe5e4349d0
+0x7df4bab30038:	jmp	rax
+1012	powershell.exe	0x143e5540000	0x143e554ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 f5 89 da 07 fb d0 00 01 ................
+ee ff ee ff 02 00 00 00 20 01 54 e5 43 01 00 00 ........ .T.C...
+20 01 54 e5 43 01 00 00 00 00 54 e5 43 01 00 00  .T.C.....T.C...
+00 00 54 e5 43 01 00 00 0f 00 00 00 00 00 00 00 ..T.C...........	
+0x143e5540000:	add	byte ptr [rax], al
+0x143e5540002:	add	byte ptr [rax], al
+0x143e5540004:	add	byte ptr [rax], al
+0x143e5540006:	add	byte ptr [rax], al
+0x143e5540008:	cmc	
+0x143e5540009:	mov	edx, ebx
+1012	powershell.exe	0x143e5340000	0x143e534ffff	VadS	PAGE_EXECUTE_READWRITE	8	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 44 e4 ba e5 13 42 00 01 ........D....B..
+ee ff ee ff 02 00 00 00 20 01 34 e5 43 01 00 00 ........ .4.C...
+20 01 34 e5 43 01 00 00 00 00 34 e5 43 01 00 00  .4.C.....4.C...
+00 00 34 e5 43 01 00 00 0f 00 00 00 00 00 00 00 ..4.C...........	
+0x143e5340000:	add	byte ptr [rax], al
+0x143e5340002:	add	byte ptr [rax], al
+0x143e5340004:	add	byte ptr [rax], al
+0x143e5340006:	add	byte ptr [rax], al
+0x143e5340008:	in	al, 0xba
+0x143e534000b:	in	eax, 0x13
+0x143e534000d:	add	byte ptr [rcx], al
+0x143e5340010:	out	dx, al
+1012	powershell.exe	0x143e54d0000	0x143e54d6fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 80 79 34 e5 43 01 00 00 .........y4.C...
+80 79 34 e5 43 01 00 00 00 00 34 e5 43 01 00 00 .y4.C.....4.C...
+b0 0d 4d e5 43 01 00 00 00 10 4d e5 43 01 00 00 ..M.C.....M.C...
+00 70 4d e5 43 01 00 00 01 00 00 00 00 00 00 00 .pM.C...........	
+0x143e54d0000:	add	byte ptr [rax], al
+0x143e54d0002:	add	byte ptr [rax], al
+0x143e54d0004:	add	byte ptr [rax], al
+0x143e54d0006:	add	byte ptr [rax], al
+0x143e54d0008:	cmp	byte ptr [rcx + 0x34], 0xe5
+0x143e54d000c:	add	dword ptr [r8], eax
+0x143e54d000f:	add	byte ptr [rax + 0x43e53479], al
+0x143e54d0015:	add	dword ptr [rax], eax
+0x143e54d0017:	add	byte ptr [rax], al
+0x143e54d0019:	add	byte ptr [0x143], dh
+0x143e54d0020:	mov	al, 0xd
+0x143e54d0022:	in	eax, 0x43
+0x143e54d0025:	add	dword ptr [rax], eax
+0x143e54d0027:	add	byte ptr [rax], al
+0x143e54d0029:	adc	byte ptr [rbp - 0x1b], cl
+0x143e54d002c:	add	dword ptr [r8], eax
+0x143e54d002f:	add	byte ptr [rax], al
+0x143e54d0031:	jo	0x143e54d0080
+0x143e54d0033:	in	eax, 0x43
+0x143e54d0035:	add	dword ptr [rax], eax
+0x143e54d0037:	add	byte ptr [rcx], al
+0x143e54d0039:	add	byte ptr [rax], al
+0x143e54d003b:	add	byte ptr [rax], al
+0x143e54d003d:	add	byte ptr [rax], al
+1012	powershell.exe	0x7df4bab40000	0x7df4babdffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d e5 5c fe 7f 00 00 h........].\....
+00 10 e3 5c fe 7f 00 00 08 4a fc 5c fe 7f 00 00 ...\.....J.\....	
+0x7df4bab40000:	fdivr	st(7)
+8416	powershell.exe	0x1e659c90000	0x1e659c9ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 04 6e d9 b1 bb f0 00 01 .........n......
+ee ff ee ff 02 00 00 00 20 01 c9 59 e6 01 00 00 ........ ..Y....
+20 01 c9 59 e6 01 00 00 00 00 c9 59 e6 01 00 00  ..Y.......Y....
+00 00 c9 59 e6 01 00 00 0f 00 00 00 00 00 00 00 ...Y............	
+0x1e659c90000:	add	byte ptr [rax], al
+0x1e659c90002:	add	byte ptr [rax], al
+0x1e659c90004:	add	byte ptr [rax], al
+0x1e659c90006:	add	byte ptr [rax], al
+0x1e659c90008:	add	al, 0x6e
+0x1e659c9000a:	fnstenv	[rcx + 0x100f0bb]
+0x1e659c90010:	out	dx, al
+8416	powershell.exe	0x1e65a100000	0x1e65a106fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 80 79 2d 72 e6 01 00 00 .........y-r....
+80 79 2d 72 e6 01 00 00 00 00 2d 72 e6 01 00 00 .y-r......-r....
+b0 0d 10 5a e6 01 00 00 00 10 10 5a e6 01 00 00 ...Z.......Z....
+00 70 10 5a e6 01 00 00 01 00 00 00 00 00 00 00 .p.Z............	
+0x1e65a100000:	add	byte ptr [rax], al
+0x1e65a100002:	add	byte ptr [rax], al
+0x1e65a100004:	add	byte ptr [rax], al
+0x1e65a100006:	add	byte ptr [rax], al
+0x1e65a100008:	cmp	byte ptr [rcx + 0x2d], 0x72
+0x1e65a10000c:	out	1, al
+0x1e65a10000e:	add	byte ptr [rax], al
+0x1e65a100010:	cmp	byte ptr [rcx + 0x2d], 0x72
+0x1e65a100014:	out	1, al
+0x1e65a100016:	add	byte ptr [rax], al
+0x1e65a100018:	add	byte ptr [rax], al
+0x1e65a10001a:	sub	eax, 0x1e672
+0x1e65a10001f:	add	byte ptr [rax - 0x19a5eff3], dh
+0x1e65a100025:	add	dword ptr [rax], eax
+0x1e65a100027:	add	byte ptr [rax], al
+0x1e65a100029:	adc	byte ptr [rax], dl
+0x1e65a10002b:	pop	rdx
+0x1e65a10002c:	out	1, al
+0x1e65a10002e:	add	byte ptr [rax], al
+0x1e65a100030:	add	byte ptr [rax + 0x10], dh
+0x1e65a100033:	pop	rdx
+0x1e65a100034:	out	1, al
+0x1e65a100036:	add	byte ptr [rax], al
+0x1e65a100038:	add	dword ptr [rax], eax
+0x1e65a10003a:	add	byte ptr [rax], al
+0x1e65a10003c:	add	byte ptr [rax], al
+0x1e65a10003e:	add	byte ptr [rax], al
+8416	powershell.exe	0x1e6722d0000	0x1e6722dffff	VadS	PAGE_EXECUTE_READWRITE	8	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 a0 da d2 7b ba 03 00 01 ...........{....
+ee ff ee ff 02 00 00 00 20 01 2d 72 e6 01 00 00 ........ .-r....
+20 01 2d 72 e6 01 00 00 00 00 2d 72 e6 01 00 00  .-r......-r....
+00 00 2d 72 e6 01 00 00 0f 00 00 00 00 00 00 00 ..-r............	
+0x1e6722d0000:	add	byte ptr [rax], al
+0x1e6722d0002:	add	byte ptr [rax], al
+0x1e6722d0004:	add	byte ptr [rax], al
+0x1e6722d0006:	add	byte ptr [rax], al
+0x1e6722d0008:	movabs	al, byte ptr [0xee010003ba7bd2da]
+8416	powershell.exe	0x7df4dd100000	0x7df4dd10ffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00 ........x.......
+0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 d0 49 43 ....I......H..IC
+5e fe 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8 ^......I......H.
+d0 49 43 5e fe 7f 00 00 ff e0 49 c7 c2 02 00 00 .IC^......I.....	
+0x7df4dd100000:	add	byte ptr [rax], al
+0x7df4dd100002:	add	byte ptr [rax], al
+0x7df4dd100004:	add	byte ptr [rax], al
+0x7df4dd100006:	add	byte ptr [rax], al
+0x7df4dd100008:	js	0x7df4dd100017
+0x7df4dd10000a:	add	byte ptr [rax], al
+0x7df4dd10000c:	add	byte ptr [rax], al
+0x7df4dd10000e:	add	byte ptr [rax], al
+0x7df4dd100010:	or	al, 0
+0x7df4dd100012:	add	byte ptr [rax], al
+0x7df4dd100014:	mov	r10, 0
+0x7df4dd10001b:	movabs	rax, 0x7ffe5e4349d0
+0x7df4dd100025:	jmp	rax
+0x7df4dd100027:	mov	r10, 1
+0x7df4dd10002e:	movabs	rax, 0x7ffe5e4349d0
+0x7df4dd100038:	jmp	rax
+8416	powershell.exe	0x7df4dd110000	0x7df4dd1affff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d e5 5c fe 7f 00 00 h........].\....
+00 10 e3 5c fe 7f 00 00 08 4a fc 5c fe 7f 00 00 ...\.....J.\....	
+0x7df4dd110000:	fdivr	st(7)
+6304	powershell.exe	0x2207d3e0000	0x2207d3effff	VadS	PAGE_EXECUTE_READWRITE	8	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 92 59 fe 18 dc 14 00 01 .........Y......
+ee ff ee ff 02 00 00 00 20 01 3e 7d 20 02 00 00 ........ .>} ...
+20 01 3e 7d 20 02 00 00 00 00 3e 7d 20 02 00 00  .>} .....>} ...
+00 00 3e 7d 20 02 00 00 0f 00 00 00 00 00 00 00 ..>} ...........	
+0x2207d3e0000:	add	byte ptr [rax], al
+0x2207d3e0002:	add	byte ptr [rax], al
+0x2207d3e0004:	add	byte ptr [rax], al
+0x2207d3e0006:	add	byte ptr [rax], al
+0x2207d3e0008:	xchg	eax, edx
+0x2207d3e0009:	pop	rcx
+6304	powershell.exe	0x22065150000	0x2206515ffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 c5 98 dd b4 d3 ac 00 01 ................
+ee ff ee ff 02 00 00 00 20 01 15 65 20 02 00 00 ........ ..e ...
+20 01 15 65 20 02 00 00 00 00 15 65 20 02 00 00  ..e ......e ...
+00 00 15 65 20 02 00 00 0f 00 00 00 00 00 00 00 ...e ...........	
+0x22065150000:	add	byte ptr [rax], al
+0x22065150002:	add	byte ptr [rax], al
+0x22065150004:	add	byte ptr [rax], al
+0x22065150006:	add	byte ptr [rax], al
+6304	powershell.exe	0x2207d350000	0x2207d356fff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 70 7a 3e 7d 20 02 00 00 ........pz>} ...
+70 7a 3e 7d 20 02 00 00 00 00 3e 7d 20 02 00 00 pz>} .....>} ...
+b0 0d 35 7d 20 02 00 00 00 10 35 7d 20 02 00 00 ..5} .....5} ...
+00 70 35 7d 20 02 00 00 01 00 00 00 00 00 00 00 .p5} ...........	
+0x2207d350000:	add	byte ptr [rax], al
+0x2207d350002:	add	byte ptr [rax], al
+0x2207d350004:	add	byte ptr [rax], al
+0x2207d350006:	add	byte ptr [rax], al
+0x2207d350008:	jo	0x2207d350084
+0x2207d35000a:	jge	0x2207d35002d
+0x2207d35000d:	add	al, byte ptr [rax]
+0x2207d35000f:	add	byte ptr [rax + 0x7a], dh
+0x2207d350012:	jge	0x2207d350035
+0x2207d350015:	add	al, byte ptr [rax]
+0x2207d350017:	add	byte ptr [rax], al
+0x2207d350019:	add	byte ptr [rsi], bh
+0x2207d35001b:	jge	0x2207d35003d
+0x2207d35001d:	add	al, byte ptr [rax]
+0x2207d35001f:	add	byte ptr [rax + 0x207d350d], dh
+0x2207d350025:	add	al, byte ptr [rax]
+0x2207d350027:	add	byte ptr [rax], al
+0x2207d350029:	adc	byte ptr [rip + 0x2207d], dh
+0x2207d35002f:	add	byte ptr [rax], al
+0x2207d350031:	jo	0x2207d350068
+0x2207d350033:	jge	0x2207d350055
+0x2207d350035:	add	al, byte ptr [rax]
+0x2207d350037:	add	byte ptr [rcx], al
+0x2207d350039:	add	byte ptr [rax], al
+0x2207d35003b:	add	byte ptr [rax], al
+0x2207d35003d:	add	byte ptr [rax], al
+6304	powershell.exe	0x7df44d020000	0x7df44d02ffff	VadS	PAGE_EXECUTE_READWRITE	1	1	Disabled	N/A	
+00 00 00 00 00 00 00 00 78 0d 00 00 00 00 00 00 ........x.......
+0c 00 00 00 49 c7 c2 00 00 00 00 48 b8 d0 49 43 ....I......H..IC
+5e fe 7f 00 00 ff e0 49 c7 c2 01 00 00 00 48 b8 ^......I......H.
+d0 49 43 5e fe 7f 00 00 ff e0 49 c7 c2 02 00 00 .IC^......I.....	
+0x7df44d020000:	add	byte ptr [rax], al
+0x7df44d020002:	add	byte ptr [rax], al
+0x7df44d020004:	add	byte ptr [rax], al
+0x7df44d020006:	add	byte ptr [rax], al
+0x7df44d020008:	js	0x7df44d020017
+0x7df44d02000a:	add	byte ptr [rax], al
+0x7df44d02000c:	add	byte ptr [rax], al
+0x7df44d02000e:	add	byte ptr [rax], al
+0x7df44d020010:	or	al, 0
+0x7df44d020012:	add	byte ptr [rax], al
+0x7df44d020014:	mov	r10, 0
+0x7df44d02001b:	movabs	rax, 0x7ffe5e4349d0
+0x7df44d020025:	jmp	rax
+0x7df44d020027:	mov	r10, 1
+0x7df44d02002e:	movabs	rax, 0x7ffe5e4349d0
+0x7df44d020038:	jmp	rax
+6304	powershell.exe	0x7df44d030000	0x7df44d0cffff	VadS	PAGE_EXECUTE_READWRITE	2	1	Disabled	N/A	
+d8 ff ff ff ff ff ff ff 08 00 00 00 00 00 00 00 ................
+01 00 00 00 00 00 00 00 00 02 0e 03 38 00 00 00 ............8...
+68 01 d7 07 0c 00 00 00 d8 5d e5 5c fe 7f 00 00 h........].\....
+00 10 e3 5c fe 7f 00 00 08 4a fc 5c fe 7f 00 00 ...\.....J.\....	
+0x7df44d030000:	fdivr	st(7)
